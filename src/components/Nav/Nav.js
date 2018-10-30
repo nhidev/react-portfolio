@@ -61,7 +61,7 @@ class Nav extends Component {
          
           <div
             className="menu__item download">
-            <a href="resume.pdf" download>Resume</a>
+            <a href="./images/resume.pdf" download>Resume</a>
           </div>
         </div>
       </nav>
