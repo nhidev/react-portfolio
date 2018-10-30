@@ -2,7 +2,7 @@ import React from 'react';
 import ScrollToNext from '@components/ScrollToNext';
 import './style.scss';
 
-const AboutPage = (props, context) => {
+const AboutPage = () => {
 
   return (
     <div className="about-page" >
