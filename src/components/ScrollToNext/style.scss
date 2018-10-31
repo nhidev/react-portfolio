@@ -1,35 +1,38 @@
+@import 'variables';
+
 .scroll-to-next {
   cursor: pointer;
-
-  .arrow {
-    text-align: center;
-    margin: 0 auto;
-    padding-bottom: 0.5rem;
-
-    .scroll-text {
-      text-align: center;
-      font-size: 0.5rem;
-      margin-bottom: -0.125rem;
-    }
+  position: relative;
+  width: 1rem;
+  height: 3rem;
+  margin: auto;
+  margin-bottom: 1rem;
+  .scroll-text {
+    position: absolute;
+    right: 100%;
+    bottom: 3rem;
+    -webkit-transform: rotateZ(90deg);
+    transform: rotateZ(90deg);
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    text-transform: uppercase;
+    font-family: "Baksheesh Regular";
+    font-size: .7rem;
   }
-
-  .bounce {
-    animation: bounce 2s infinite;
+  .svg {
+    position: absolute;
+    bottom: 1.5rem;
+    right: -2.5rem;
+    width: 2.5rem;
+    fill: $black;
+    -webkit-transform: rotateZ(90deg);
+    transform: rotateZ(90deg);
+    -webkit-transform-origin: 3px 0;
+    transform-origin: 3px 0;
+    transition: fill 0.1s ease,margin-bottom 0.2s cubic-bezier(.645,.045,.355,1);  
   }
-
-  @keyframes bounce {
-    0%,
-    20%,
-    50%,
-    80%,
-    100% {
-      transform: translateY(0);
-    }
-    40% {
-      transform: translateY(-30px);
-    }
-    60% {
-      transform: translateY(-15px);
-    }
+  &:hover .svg {
+    bottom: 1rem;
   }
+  
 }

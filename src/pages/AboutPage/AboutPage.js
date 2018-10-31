@@ -23,9 +23,7 @@ const AboutPage = () => {
             <p>
               Work is always delivered <span className="highlight">on-time</span> or ahead of schedule with emphasis on great communication.
             </p>
-            <p>
-            Thank you for taking the time to get to know a little bit about me and my projects. Feel free to connect with me on <a href="https://www.linkedin.com/in/nhi-thai" className="highlight">Linkedin</a>, and let's share our story and learn from each other! 
-            </p>
+           
           </div>
         </div>
       </div>
