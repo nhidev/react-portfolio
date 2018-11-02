@@ -3,12 +3,10 @@ $border-radius: 2px;
 
 .portfolio-item {
   width: 100%;
-  margin-bottom: 1rem;
-  
+  margin-bottom: 1rem;  
   display: flex;
   flex-direction: column;
   margin: 0.5rem 0;
-  border-radius: $border-radius;
   transition: box-shadow 0.25s;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px -2px rgba(0, 0, 0, 0.2);
